@@ -1,0 +1,349 @@
+body {
+    background-color: white;
+    padding: 0vw;
+    margin: 0vw;
+}
+.container1 {
+    width: 100vw;
+    
+    
+    
+    
+}
+.box1 {
+    /* border-radius: 10px; */
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding-top: 0.6vw;
+    padding-bottom: 0.6vw;
+    background: #357550;
+    position: fixed;
+    z-index: 1;
+    
+
+}
+.item1-box1 {
+    margin-left: 2.5vw;
+    display: flex;
+}
+.item2-box1 {
+    margin-left: 3vw;
+    display: flex;
+}
+.item3-box1 {
+    margin-left: 50vw;
+    display: flex;
+}
+.box2 {
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.item1-box2 {
+    color: #357550;
+    margin-left: 3vw;
+}
+.item2-box2 {
+    margin-left: 36vw;
+    
+}
+
+.box3 {
+    display: flex;
+    max-height: 37.875vw;
+    max-width: 100vw;
+    background-image: url("Screenshot\ 2023-11-13\ 134451.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+.image .box3 {
+    animation-name: img1;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timeline: 2s;
+}
+@keyframes img1 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.option1 {
+    width: 25vw;
+    height: 18.75vw;
+    margin: 3vw;
+    border-radius: 1.9vw;
+    
+}
+.option2 {
+    width: 25vw;
+    height: 18.75vw;
+    margin: 3vw;
+    border-radius: 1.9vw;
+}
+.option3 {
+    width: 25vw;
+    height: 18.75vw;
+    margin: 3vw;
+    border-radius: 1.9vw;
+}
+.box4 {
+    display: flex;
+    
+}
+.option1:hover {
+    animation-name: option1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes option1 {
+    from {
+        width: 400px;
+        height: 300px;
+        
+        
+    }
+    to {
+        width: 450px;
+        height: 350px;
+        margin: 25px;
+        box-shadow: 7px 15px rgb(92, 84, 84);
+        filter: brightness(60%);
+
+
+        
+    }
+}
+.option2:hover {
+    animation-name: option2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes option2 {
+    from {
+        width: 400px;
+        height: 300px;
+    }
+    to {
+        width: 450px;
+        height: 350px;
+        margin: 25px;
+        box-shadow: 7px 15px rgb(92, 84, 84);
+
+        
+    }
+}
+.option3:hover {
+    animation-name: option3;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes option3 {
+    from {
+        width: 400px;
+        height: 300px;
+    }
+    to {
+        width: 450px;
+        height: 350px;
+        margin: 25px;
+        box-shadow: 7px 15px rgb(92, 84, 84);
+
+        
+    }
+}
+.box5 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8rem;
+
+}
+.div1-box5 {
+    background-image: url("https://i.ytimg.com/vi/ZrTKhyDmn7Y/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif;
+}
+.div2-box5 {
+    background-image: url("https://i.ytimg.com/vi/al5HAlEmdQI/maxresdefault.jpg");
+    background-repeat: no-repeat;
+}
+.box5 div {
+    width: 50vw;
+    height: 28.125vw;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    /* border: 2px solid #357550; */
+}
+.box6 {
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+.box6 .item {
+    width: 20vw;
+    height: 23vw;
+    border-radius: 1vw;
+    /* border: 2px solid black; */
+    box-shadow: 5px 5px 5px 5px;
+    background-repeat: no-repeat;
+    padding-left: 1vw;
+}
+.box6-item1 {
+    background-image: url("https://m.media-amazon.com/images/I/81xdwPzZBpL._AC_UY1100_.jpg");
+    background-color: #DBA49B;
+    background-size: 17vw;
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
+    margin-bottom: 5vw;
+    
+}
+.box6-item2 {
+    background-image: url("https://diyjoy.com/wp-content/uploads/2018/05/Tiny-Terrariums.jpg");
+    background-color: #DBA49B;
+    background-size: 17vw;
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
+    margin-bottom: 5vw;
+}
+.box6-item3 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw-zvDlx5nOn8z5FwxqhVqPeR2jGplWz_LYQ&usqp=CAU");
+    background-color: #DBA49B;
+    background-size: 17vw;
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
+    margin-bottom: 5vw;
+}
+.box6-item1:hover{
+    filter: brightness(70%);
+
+}
+.cartt {
+    width: 10vw;
+    padding: 0.9vw 1.5vw 0.9vw 1.5vw;
+    justify-content: center;
+    margin-top: 12vw;
+    margin-left: 2.8vw;
+    border-radius: 0.5vw;
+    background-color: rgba(0, 217, 255, 0.973);
+    display: flex;
+    font-size: 1.25vw;
+    filter: opacity(0);
+}
+.cartt:hover {
+    filter: opacity(1);
+}
+.key{
+    font-size: 1.1vw;
+    font-weight: bold;
+    margin-top: 3.2vw;
+    margin-left: 0.4vw;
+}
+.box6-item2:hover{
+    filter: brightness(70%);
+}
+.box6-item3:hover{
+    filter: brightness(70%);
+}
+.container2 {
+    background-color: rgba(164, 164, 164, 0.271);
+}
+.box7 {
+    /* background-color: rgba(128, 124, 124, 0.296); */
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+}
+.box7 div {
+    width: 30vw;
+    height: 30vw;
+    background-color: white;
+    border-radius: 1vw;
+    margin-bottom: 2.5vw;
+    justify-content: center;
+
+}
+.box7 div img {
+    width: 15vw;
+    margin: 2vw 7.5vw 2vw 7.5vw;
+    box-shadow: 0.19vw 0.19vw 0.19vw 0.19vw;
+    border-radius: 1vw;
+    
+}
+.box7 div h2 {
+    margin: 2vw 7.5vw 2vw 6vw;
+    /* border-radius: 1vw; */
+    
+}
+.box7 div h3 {
+    margin: 1vw 5vw 1vw 7vw;
+    /* border-radius: 1vw; */
+    font-size: 1.2vw;
+    
+}
+.container3 {
+    display: flex;
+    flex-direction: column;
+}
+.boxlast {
+    height: 30vw;
+    background-color: #202F32;
+    display: flex;
+}
+.boxlast-item1, .boxlast-item2 {
+    margin-left: 5vw;
+    margin-right: 15vw;
+    /* border: 2px solid black; */
+
+}
+
+.boxlast div h2 {
+    color: white;
+    font-size: 3vw;
+    margin-left: 6.5vw;
+}
+.anchor1 {
+    font-size: 1.5vw;
+    color: white;
+    
+}
+.boxlast div h3 {
+    font-weight: bold;
+    font-family: 'Roboto';
+    font-size: 1.8vw;
+    color: white;
+    margin-top: 2vw;
+
+}
+.boxlast div h5 {
+    /* font-weight: bold; */
+    font-family: 'Roboto';
+    font-size: 1vw;
+    color: white;
+
+}
+/* .boxlast div h4 {
+    /* font-weight: bold; */
+    /* font-family: 'Roboto';
+    font-size: 2vw;
+    color: white;
+    padding-left: 20%; */
+
+.boxlast-item3 {
+    margin-right: 5vw;
+}    
+.h4 {
+    margin-right: 15vw;
+    color: white;
+    font-size: 2vw;
+}
