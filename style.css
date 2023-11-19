@@ -347,3 +347,50 @@ body {
     color: white;
     font-size: 2vw;
 }
+.box4 div {
+    display: block;
+    margin-left: 13.5vw;
+}
+.tab1 {
+    background-image: url("https://www.thewowstyle.com/wp-content/uploads/2015/03/Modern-Home-Decorating-Magazine.jpg");
+    width: 16vw;
+    height: 16vw;
+    background-size: cover;
+    border-radius: 2vw;
+    color: white;
+    text-align: center;
+}
+.tab2 {
+    background-image: url("https://static.wixstatic.com/media/45862b_105b8e1dd41c42f4af87e3d956fa6f61~mv2_d_2850_2422_s_4_2.jpg/v1/fill/w_2850,h_2422,al_c/45862b_105b8e1dd41c42f4af87e3d956fa6f61~mv2_d_2850_2422_s_4_2.jpg");
+    width: 16vw;
+    height: 16vw;
+    background-size: cover;
+    border-radius: 2vw;
+    color: white;
+    text-align: center;
+}
+.tab3 {
+    background-image: url("https://authindia.com/wp-content/uploads/2020/01/HANDMADE1.jpeg");
+    width: 16vw;
+    height: 16vw;
+    background-size: cover;
+    border-radius: 2vw;
+    color: white;
+    text-align: center;
+}
+.tab1:hover,.tab2:hover, .tab3:hover {
+    filter: brightness(60%);
+    padding: 1vw 1vw 1vw 1vw;
+    transition: 1.5s;
+    box-shadow: 1vw 1vw 1vw 1vw;
+}
+.tab1-h2 {
+    filter: opacity(0);
+    margin-top: 6vw;
+}
+.tab1-h2:hover {
+    filter: opacity(400%);
+    filter: brightness(120%);
+    color: aqua;
+    font-size: 2.5vw;
+}
