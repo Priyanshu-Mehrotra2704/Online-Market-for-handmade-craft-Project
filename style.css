@@ -61,12 +61,12 @@ body {
     background-size: 100vw;
 }
 .image .box3 {
-    animation-name: img1;
+    animation-name: img2;
     animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timeline: 2s;
 }
-@keyframes img1 {
+@keyframes img2 {
     0% {
         opacity: 0;
     }
